@@ -7,7 +7,8 @@
     "request": "^2.64.0",
     "underscore": "^1.8.3",
     "xmldoc": "^0.4.0",
-    "rn-nodeify":"7.0.1"
+    "rn-nodeify":"7.0.1",
+    "asyncstorage-down": "4.0.0"
   },
   "devDependencies": {
     "tap-spec": "^4.1.0",
