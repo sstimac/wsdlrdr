@@ -6,14 +6,16 @@
   "dependencies": {
     "request": "^2.64.0",
     "underscore": "^1.8.3",
-    "xmldoc": "^0.4.0"
+    "xmldoc": "^0.4.0",
+    "rn-nodeify":"7.0.1"
   },
   "devDependencies": {
     "tap-spec": "^4.1.0",
     "tape"    : "^4.2.1"
   },
   "scripts": {
-    "test": "node ./tests/tests.js | tap-spec"
+    "test": "node ./tests/tests.js | tap-spec",
+    "postinstall": "rn-nodeify --install --hack"
   },
   "repository": {
       "type": "git",
