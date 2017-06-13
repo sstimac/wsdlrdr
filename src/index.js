@@ -1,7 +1,7 @@
 (function() {
 
     "use strict";
-
+    import '../shim.js';
     var xmldoc  = require('xmldoc');
     var _       = require('underscore');
     var request = require('request');
